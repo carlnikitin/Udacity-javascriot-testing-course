@@ -1,8 +1,11 @@
 function AddressBook() {
-    this.addContact = function() {
-      console.log("add a contact")
-    }
-    this.getContact = function() {
-      console.log("get a contact")
-    }
-  }
+  this.contacts = [];
+}
+
+AddressBook.prototype.addContact = function (contact) {
+  this.contacts.push(contact);
+}
+
+AddressBook.prototype.addContact = function (index) {
+  return this.contacts[index];
+}
