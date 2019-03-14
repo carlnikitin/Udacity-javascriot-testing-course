@@ -1,3 +1,6 @@
+Carl Nikitin
+VS18
+
 # JavaScript Testing
 
 Practice testing your javascript applications using Jasmine!
